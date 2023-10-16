@@ -1,11 +1,24 @@
-
-
-
-
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', sans-serif;
     margin: 20px;
+    text-align: justify;
+    background-color: bisque;
+}
+.product {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: auto auto auto auto;
+    grid-area: auto;
+
+
+  }
+.product{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(220, 144, 200);
 }
 
 .products, .cart {
